@@ -16,9 +16,18 @@ $bright-red: #ff3b3f;
 $light-grey: #efefef;
 
 
+.phone {
+  letter-spacing: 4px;
+}
+
 .title {
   color: $light-grey;
   -webkit-text-stroke: 1px black;
+}
+
+
+footer, .pad-section {
+  background-color: $sky;
 }
 
 
@@ -62,11 +71,11 @@ $light-grey: #efefef;
 #about {
 }
 
-#services {
+#services, #contact {
   background-color: #306d9f;
   color: #ffffff;
 }
-#services .glyphicon {
+#services .glyphicon,  #contact .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
@@ -77,6 +86,7 @@ $light-grey: #efefef;
   vertical-align: middle;
   width: 140px;
 }
+
 
 #information {
   background: image-url("inside1.jpeg") no-repeat center center fixed;
