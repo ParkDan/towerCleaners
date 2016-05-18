@@ -29,6 +29,6 @@ $(document).ready(function (){
 
   // add information window
   var infowindow = new google.maps.InfoWindow({
-    content:  '<div class="info"><strong>Tower Cleaners & Tailors</strong><br><br>176 E Walton Place<br>Chicago, IL 60611</div>'
+    content:  '<div class="info"><strong>Tower Cleaners & Tailors</strong><br><br>176 E Walton Place<br>Chicago, IL 60611<br><br><a target="_blank" href="https://www.google.com/maps/dir//Tower+Cleaners+%26+Tailors,+East+Walton+Place,+Chicago,+IL/@41.9001964,-87.6575762">Get Directions</a></div>'
   });
 });

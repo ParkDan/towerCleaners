@@ -8,12 +8,29 @@ html, body {
   width: 100%;
 }
 
+
+
+$sky: #caebf2;
+$carbon: #a9a9a9;
+$bright-red: #ff3b3f;
+$light-grey: #efefef;
+
+
+.title {
+  color: $light-grey;
+  -webkit-text-stroke: 1px black;
+}
+
+
 /* padded section */
 .pad-section {
   padding: 50px 0;
 }
 .pad-section img {
   width: 100%;
+}
+
+.about-link {
 }
 
 /* vertical-centered text */
@@ -31,7 +48,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../images/home.jpg) no-repeat center center fixed;
+  background: image-url("front-view.jpg") no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -62,7 +79,7 @@ html, body {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed;
+  background: image-url("inside1.jpeg") no-repeat center center fixed;
   display: table;
   height: 800px;
   position: relative;
